@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR ATHENA</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <div class="navbar">
+            <div class="left">
+                <i class="fas fa-camera-retro camera-icon"></i>
+                <a href="index.html" class="home">Home</a>
+                <a href="#">Create</a>
+            </div>
+            <div class="center">
+                <input type="text" placeholder="Search for memories">
+            </div>
+            <div class="right">
+                <i class="fas fa-bell bell-icon"></i>
+                <i class="fas fa-envelope message-icon"></i>
+                <div class="profile"></div>
+            </div>
+        </div>
+        <div class="button-list">
+            <a href="index.html"><button class="active">Memories</button></a>
+            <a href="athena.html"><button>Athena</button></a>
+            <button>Soon</button>
+        </div>
+        <main id="grid"></main>
+        <div class="modal" id="imageModal">
+            <div class="modal-content">
+                <img id="modalImage" src="" alt="Modal Image">
+                <div class="modal-footer">
+                    <button id="likeButton" aria-label="Like this image">❤️</button>
+                    <button id="commentButton">💬</button>
+                    <button id="shareButton">🔗</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="coming-soon">More to come soon! ❤️ ❤️ ❤️</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
